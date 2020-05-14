@@ -1,0 +1,245 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "maze_lib.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"mazesrc.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  "
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Marcin/Desktop/6-grafy/6-grafy"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				6,
+				7,
+				9,
+				11,
+				13,
+				16,
+				18
+			]
+		}
+	],
+	"id" : "maze_lib::@6890427a1f51a3e7e1df",
+	"name" : "maze_lib",
+	"nameOnDisk" : "maze_lib.lib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				6,
+				7,
+				9,
+				11,
+				13,
+				16,
+				18
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				8,
+				10,
+				12,
+				14,
+				15,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "RandomRobotBehaviour/RobotBehaviour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "RandomRobotBehaviour/RobotBehaviourFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "RandomRobotBehaviour/RobotBehaviour.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/MazeWalls.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/RobotSim.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/RobotBehaviourBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/MazeWalls.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/RobotSim.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/Maze.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/Maze.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/RobotBehaviour.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/RobotBehaviour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/RobotBehaviourFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/robotBehaviourFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/Robot.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/Position.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/MazeBoard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "MazeBoard/MazeBoard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MazeBoard/Position.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

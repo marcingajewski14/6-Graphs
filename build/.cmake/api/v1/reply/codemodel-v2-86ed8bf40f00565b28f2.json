@@ -1,0 +1,119 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Maze",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Maze",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "MazeUnitTest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MazeUnitTest",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "grafy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "maze::@7f1a3f666aa2fd8dcb1b",
+					"jsonFile" : "target-maze-Debug-d71d8965a4d0565dbc04.json",
+					"name" : "maze",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maze_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maze_lib-Debug-6450a1e99f408b7d8761.json",
+					"name" : "maze_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "maze_tests::@2ac934eb6b8b04da4690",
+					"jsonFile" : "target-maze_tests-Debug-7f02e4aa170cb03ec920.json",
+					"name" : "maze_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "maze_walls_tests::@2ac934eb6b8b04da4690",
+					"jsonFile" : "target-maze_walls_tests-Debug-9e2a42295e1270d38ef7.json",
+					"name" : "maze_walls_tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+		"source" : "C:/Users/Marcin/Desktop/6-grafy/6-grafy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,73 @@
+[
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\RandomRobotBehaviour\\RobotBehaviour.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\RandomRobotBehaviour\\RobotBehaviour.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/RandomRobotBehaviour/RobotBehaviour.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\RandomRobotBehaviour\\RobotBehaviourFactory.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\RandomRobotBehaviour\\RobotBehaviourFactory.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/RandomRobotBehaviour/RobotBehaviourFactory.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\MazeWalls.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\MazeWalls.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/MazeWalls.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\RobotSim.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\RobotSim.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/RobotSim.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\Maze.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\Maze.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/Maze.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\RobotBehaviour.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\RobotBehaviour.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/RobotBehaviour.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\robotBehaviourFactory.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\robotBehaviourFactory.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/robotBehaviourFactory.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\MazeBoard.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\MazeBoard.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/MazeBoard.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoCMakeFiles\\maze_lib.dir\\MazeBoard\\Position.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeBoard\\Position.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeBoard/Position.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoMaze\\CMakeFiles\\maze.dir\\Maze.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\Maze\\Maze.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/Maze/Maze.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\ -I..\\extern\\catch2  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoMazeUnitTest\\CMakeFiles\\maze_tests.dir\\MazeUnitTest.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeUnitTest\\MazeUnitTest.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeUnitTest/MazeUnitTest.cpp"
+},
+
+{
+  "directory": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/build",
+  "command": "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\cl.exe  /nologo /TP  -I..\\ -I..\\extern\\catch2  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /FoMazeUnitTest\\CMakeFiles\\maze_walls_tests.dir\\MazeWallsUnitTest.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Marcin\\Desktop\\6-grafy\\6-grafy\\MazeUnitTest\\MazeWallsUnitTest.cpp",
+  "file": "C:/Users/Marcin/Desktop/6-grafy/6-grafy/MazeUnitTest/MazeWallsUnitTest.cpp"
+}
+]

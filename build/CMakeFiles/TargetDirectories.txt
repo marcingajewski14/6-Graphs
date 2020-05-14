@@ -1,0 +1,10 @@
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/CMakeFiles/maze_lib.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/CMakeFiles/edit_cache.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/Maze/CMakeFiles/maze.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/Maze/CMakeFiles/edit_cache.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/Maze/CMakeFiles/rebuild_cache.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/MazeUnitTest/CMakeFiles/edit_cache.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/MazeUnitTest/CMakeFiles/maze_tests.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/MazeUnitTest/CMakeFiles/maze_walls_tests.dir
+C:/Users/Marcin/Desktop/6-grafy/6-grafy/build/MazeUnitTest/CMakeFiles/rebuild_cache.dir
