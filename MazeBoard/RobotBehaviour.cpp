@@ -1,7 +1,6 @@
 #include "RobotBehaviour.h"
 
-RobotBehaviour::RobotBehaviour(size_t const xSize, size_t const ySize, Robot &robot){
-
+RobotBehaviour(size_t const xSize, size_t const ySize, Robot &robot){
 
 	_fields.reserve(xSize);
 	for (size_t x = 0; x < xSize; ++x)
@@ -12,16 +11,13 @@ RobotBehaviour::RobotBehaviour(size_t const xSize, size_t const ySize, Robot &ro
 			_fields[x].push_back(FieldInfo());
 	} //attributes are initialized as false in the constructor
 
-_robot=robot;
+    _robot=robot;
+    
 
 }
 
 
 void RobotBehaviour::reinit(){
-
-
-
-
 
 
 }
@@ -35,11 +31,6 @@ void RobotBehaviour::reinit(){
 
 bool RobotBehaviour::explore(Position const& startPosition, Direction const &startDirection)
 {
-
-    
-    
-    
-    
     
     while (!robot.isInExit())
 	{
@@ -133,7 +124,7 @@ void RobotBehaviour::turnLeftAndUpdate()
 
 
 //G
-void RobotBehaviour::turnLeftAndUpdate()
+void RobotBehaviour::turnRightAndUpdate()
 {
     switch (_robotDirection)
     {
@@ -205,10 +196,21 @@ void RobotBehaviour::processField(int const previousField, Position const& field
 
 int RobotBehaviour::distanceToExit(Position const& position) const{
     int distance=0;
+   
 
+   //tak rozpisane, bo abs ma problem z jakimiś rzutowaniami
+    int x_s=int(_maze.xSize())/2;
+    int y_s=int(_maze.ySize())/2;
+    int x_=position._x;
+    int y_=position._y;
+    int dist_x=x_-x_s;
+    int dist_y=y_-y_s;
 
+    //najprostsza heurystyka, mozna potem lepszą
 
+    int dist=abs(dist_x)+abs(dist_y);
 
+    return dist;
 
 }
 
@@ -216,13 +218,45 @@ int RobotBehaviour::distanceToExit(Position const& position) const{
 
 void RobotBehaviour::setVisitedAndLookAround(){
 
+    _maze.setVisited(_robotPosition);
+    auto position=_robotPosition;
+    
+    if(_maze.isWallE(_robotPosition)){
+       _maze.setWallE(_robotPosition);
+    }
+    else{
+        position._x++;
+        _maze.isSeen(position);
+        position._x--;
+    }
 
+      if(_maze.isWallW(_robotPosition)){
+       _maze.setWallW(_robotPosition);
+    }
+    else{
+        position._x--;
+        _maze.isSeen(position);
+        position._x++;
+    }
 
+    if(_maze.isWallN(_robotPosition)){
+       _maze.setWallN(_robotPosition);
+    }
+    else{
+        position._y--;
+        _maze.isSeen(position);
+        position._y++;
+    }
 
-
+    if(_maze.isWallS(_robotPosition)){
+       _maze.setWallS(_robotPosition);
+    }
+    else{
+        position._y++;
+        _maze.isSeen(position);
+        position._y--;
+    }
 }
-
-
 
 
 //G
